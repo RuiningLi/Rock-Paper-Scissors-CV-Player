@@ -5,9 +5,6 @@ import math
 import numpy as np
 
 class PoseStatusClassifier:
-    '''
-
-    '''
     def __init__(self):
         self.player_pose_status_buffer = deque()
 
